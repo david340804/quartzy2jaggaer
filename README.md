@@ -1,11 +1,10 @@
+
 <!-- toc -->
 * [Quartzy 2 Jaggaer (q2j)](#quartzy-2-jaggaer-q2j)
     * [What is this?](#what-is-this)
     * [Installation](#installation)
     * [How do I use it?](#how-do-i-use-it)
-    * [Components](#components)
-        * [Content Scripts](#content-scripts)
-        * [Background Script](#background-script)
+    * [Files](#files)
 
 <!-- toc stop -->
 
@@ -31,21 +30,20 @@ Point your browser unpacked extension installer to the unzipped source folder to
 4. Enjoy the experience of not copy-pasting all those values one by one
 
 
-### Components
+### Files
 
-##### Content Scripts
- NonCatalog Form Data Insertion Script
+NonCatalog Form Data Insertion Content Script
 - Runs on Jaggaer NonCatalog Form tab
 - Listens for background script messages
 
-Active Tab (Quartzy Item View)
+Active Tab Content Script (Quartzy Item View)
 - Bound to OnClick of browser extension button (Browser Action)
 - Runs on active tab
 - Scrapes out item data from DOM using css class identification
 - Bundles data into JSON object *item*
 - Transmits *item* to background script
 
-##### Background Script
+Background Script
 - Listens for extension button click (called Browser Action in Chrome)
 - Locates open NonCatalog Form tabs
 - Acts as data router for *items* between active tabs (Quartzy Item View) and NonCatalog Form tabs
