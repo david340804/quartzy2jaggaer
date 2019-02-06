@@ -1,4 +1,13 @@
-[TOC]
+<!-- toc -->
+* [Quartzy 2 Jaggaer (q2j)](#quartzy-2-jaggaer-q2j)
+    * [What is this?](#what-is-this)
+    * [Installation](#installation)
+    * [How do I use it?](#how-do-i-use-it)
+    * [Components](#components)
+        * [Content Scripts](#content-scripts)
+        * [Background Script](#background-script)
+
+<!-- toc stop -->
 
 # Quartzy 2 Jaggaer (q2j)
 Previously called Quartzy2Buzzmart because this project was built for Georgia Tech's rebranded install of Jaggaer called Buzzmart
